@@ -1,0 +1,65 @@
+/* Remember to download Noto Sans and Montserrat fonts from Google Fonts: https://fonts.google.com/ */
+
+:root{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+body{
+    background-color: white;
+   
+}
+
+.extra-bold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+
+.headercont{
+    display: flex;
+    height: 60vh;
+    background-color: blue;
+}
+.sectioncont{
+    display: flex;
+    margin-top: 100px;
+    padding: 8rem;
+    font-size: 30px;
+}
+.sectioncont1{
+    display: flex;
+    flex-direction:row-reverse;
+    margin-top: 100px;
+    padding: 8rem;
+    background-color: rgb(236, 229, 229);
+    font-size: 30px;
+}
+.class1{
+    margin-top: 2em;
+}
+.divcont{
+    
+    display: inline;
+    
+    background-color:rgb(168, 163, 163);
+   
+    
+}
+.img{
+    display: flex;
+     width: 80%;
+   
+}
+.h1{
+   padding: 30px;
+}
