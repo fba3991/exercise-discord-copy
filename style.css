@@ -47,19 +47,37 @@ body{
 .class1{
     margin-top: 2em;
 }
-.divcont{
-    
-    display: inline;
-    
-    background-color:rgb(168, 163, 163);
-   
-    
-}
-.img{
+.sectioncont2{
     display: flex;
-     width: 80%;
-   
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(236, 229, 229);
+    margin-top: 20px;
 }
 .h1{
-   padding: 30px;
+    display: block;
+    margin-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
+.h2{
+    display: block;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.a{
+    border: 20px solid #5865f2;;
+    border-radius: 28px;
+    background-color:#5865f2;;
+    margin-top: 30px;
+    display: flex;
+    color: white;
+    padding: 16px, 32px, ;
+  
+  
+   
+}
+    
+
