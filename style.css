@@ -147,6 +147,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     color: #5865f2;
+    border-bottom: 2px solid #5865f2;
     
     } 
     .pro1, .pro2, .pro3, .pro4, .btn {
@@ -155,19 +156,11 @@ footer {
         flex-wrap: wrap;
         gap: .2rem;
         margin: 20px;
-        text-decoration: none;
+        
+        
         
     }
-     /* .pro4{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      margin-left: -30px;
-      gap: .2rem;
-      margin: 20px;
-      margin-top: 8%;
-     } */
-   
+  
     .span1, .span2, .span3, .span4{
         color: white;
       
@@ -180,27 +173,29 @@ footer {
         width: 30px;
         gap: .5em;
     } 
+.regista{
+    display: flex;
+    margin-left: 350%;
+    
+}
+.end{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+}
 
-    .regista{
-    
-     display: flex;
-     margin-left: 450% ;
-     border-top: 10px solid blue;
-    }
-    .regista >a{
-        border: #5865f2 2px solid;
-        border-radius: 40px;
-        background-color: #5865f2;
-        padding: 7px 16px;
-        color: white;
-        
-    }
-   .border{
-    border-color:2px solid #5865f2;
-   }
-    
-    
-   
+  .classregista{
+    border:10px solid #5865f2;
+    background-color: #5865f2;
+    color: white;
+    border-radius: 40px;
+  }
+  .logo{
+    display: flex;
+    gap: 1rem;
+    margin-top: 70px;
+    position: absolute;
+  }
         
     
    
