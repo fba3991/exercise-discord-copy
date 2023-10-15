@@ -3,6 +3,7 @@
 :root {
     font-family: "Noto Sans", sans-serif;
     font-size: 18px;
+    text-decoration: none;
    
     
 }
@@ -28,14 +29,96 @@ body {
     font-weight: 900;
 }
 
-
 header{
     display: flex;
-    height: 100vh;
+    background-image: url(./img/hero-bg.svg);
     background-color: blue;
-    
+    height: 80vh;
+    padding: 20px;
+
+}
+ .nav1 >*{
+    display: flex;
+    padding: 40px;
     
 }
+    .nav2{
+        display: flex;
+        color: white;
+        gap: 2rem;
+        position: relative;
+        margin-left: 200px;
+        font-family:s-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+        font-weight:500;
+        
+    }
+    .btn1{
+        display: flex;
+        gap: 2rem;
+        margin-left: 100px;
+        border: 5px solid white;
+        background-color: #fff;
+        border-radius: 35%;
+        border-radius: 40px;
+        font-size: 14px;
+        padding: 7px 16px;
+
+       
+    }
+   
+    
+    header h1{
+        display: flex;
+
+        margin-left: 22%;
+        font-family:'Montserrat', sans-serif; 
+        color: white;
+        font-weight: 900;
+        font-size: 56px;
+        
+        
+       
+        
+    }
+    .testo >p{
+        display: flex;
+        color: white;
+        margin-top: 120px;
+        padding-left: 25%;
+        padding-right: 25%;
+        line-height: 2;
+    }
+    .testo >*{
+        display: flex;
+        position: absolute;
+    }
+    .btn2{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 200px;
+        margin-left: 150px;
+        
+
+    }
+    .scaricamac{
+        border: 2px solid white;
+        color: #23272a;
+        background-color: #fff;
+        border-radius: 28px;
+        font-size: 20px;
+        padding: 16px 32px;
+    }
+    .discord{
+        border: 2px solid #23272a;
+        color: white;
+        background-color:#23272a;
+        border-radius:28px;
+        font-size: 20px;
+        padding: 16px 32px;
+    }
 
 .sectioncont {
     display: flex;
@@ -83,7 +166,7 @@ header{
     margin-top: 100px;
     padding-left: 10%;
     padding-right: 10%;
-    font-family: 'Montserrat', sans-serif; ;
+    font-family: 'Montserrat', sans-serif; 
    
 }
 
@@ -131,7 +214,7 @@ header{
 .stars {
     position: absolute;
     margin-top: 50px;
-    padding-right: 64.3%;
+    padding-right: 68%;
 
 
 } 
@@ -190,7 +273,7 @@ footer {
     color: white;
     border-radius: 40px;
   }
-  .logo{
+  .logo1{
     display: flex;
     gap: 1rem;
     margin-top: 70px;
