@@ -65,6 +65,16 @@ header{
 
        
     }
+.hero1  {
+   
+     display: flex;
+     position: absolute ;
+     align-items: flex-end;
+     margin-top: 295px; 
+     gap: 700px;
+    
+    
+ }
  
     
     .h{
@@ -119,8 +129,8 @@ header{
         font-size: 20px;
         padding: 16px 32px;
     }
-  {
-        padding: 1000px;
+    header nav{
+        font-size: 20px;
     }
 
 .sectioncont {
